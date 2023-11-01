@@ -1,0 +1,33 @@
+.menu-bar{
+    display: flex;
+    flex-direction: column;
+    height: 250vh;
+    width: 200px;
+    background-color: #f3eeee;
+    /* background: red; */
+    color: #333;
+    position: absolute;
+    left: 0;
+    top: 23vh;
+    overflow-y: auto;
+    z-index: 1;
+}
+.menu-bar > ul{
+    padding: 0;
+    list-style: none;
+}
+.menu-bar > ul > li {
+    padding: 15px;
+    border-bottom: 1px;
+    cursor: pointer;
+}
+
+.menu-bar > ul > li:hover {
+    background-color: aquamarine;
+}
+
+.menu-bar > ul > li > a,
+.menu-bar > ul > li > form > a{
+    color: black;
+    text-decoration: none;
+}
