@@ -28,22 +28,22 @@
                                     <label class="fw-light" for="title">Title</label>
                                     <input type="text" class="form-control" name="title" placeholder="Enter Title" value="{{$item->title}}">
                                 </div>
-                                <div class="form-group p-2 font-small text-gray-100">
+                                <div class="form-group p-2">
                                     <label class="fw-light" for="description">Description</label>
                                     <textarea name="description" class="form-control" cols="30" rows="10">{{$item->description}}</textarea>
                                 </div>
-                                <div class="form-group p-2 font-small text-gray-100">
+                                <div class="form-group p-2">
                                     <label class="fw-light" for="price">Price</label>
                                     <input type="number" class="form-control" name="price" placeholder="Enter Price" value="{{$item->price}}">
                                 </div>
-                                <div class="form-group p-2 font-small text-gray-100">
+                                <div class="form-group p-2">
                                     <label class="fw-light" for="image">Image</label>
                                     <input type="file" class="form-control" name="image" value="{{$item->image}}">
                                     @if($item->image != '')
                                         <a href="{{asset($item->image)}}" target="_blank"><img width="100px" src="{{asset($item->image)}}"></a>
                                     @endif
                                 </div>
-                                <div class="form-group p-2 font-small text-gray-100">
+                                <div class="form-group p-2">
                                     <label class="fw-light" for="category">Update Category</label>
                                     <select class="form-control" name="category_id" id="category_id">
                                         <option value="">--Select an Option--</option>
