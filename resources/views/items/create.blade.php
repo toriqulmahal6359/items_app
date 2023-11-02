@@ -27,18 +27,19 @@
                                     <input type="text" class="form-control" name="title" placeholder="Enter Title">
                                 </div>
                                 <div class="form-group p-2 font-small text-gray-100">
-                                    <label for="description">Description</label>
+                                    <label class="fw-light" for="description">Description</label>
                                     <textarea name="description" class="form-control" cols="30" rows="10"></textarea>
                                 </div>
                                 <div class="form-group p-2 font-small text-gray-100">
-                                    <label for="price">Price</label>
+                                    <label class="fw-light" for="price">Price</label>
                                     <input type="number" class="form-control" name="price" placeholder="Enter Price">
                                 </div>
                                 <div class="form-group p-2 font-small text-gray-100">
-                                    <label for="image">Image</label>
+                                    <label class="fw-light" for="image">Image</label>
                                     <input type="file" class="form-control" name="image">
                                 </div>
                                 <div class="form-group p-2 font-small text-gray-100">
+                                    <label class="fw-light" for="category">Select Category</label>
                                     <select class="form-control" name="category_id" id="category_id">
                                         <option value="">--Select an Option--</option>
                                         @foreach ($categories as $category)
